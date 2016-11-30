@@ -130,9 +130,11 @@ header .banner {
 }
 .volunt-text{
   color: #d2079f;
+  font-family: "Comfortaa", serif;
 }
 .volunt-text a{
   color: #ff5858;
+  font-family: "Comfortaa", serif;
 }
 .about-content {
     margin-top: 6%;
@@ -141,6 +143,7 @@ header .banner {
 .about-content h2 {
     margin: 5%;
     color: #D5797A;
+    font-family: "Comfortaa", serif;
 }
 .m-about{
   margin: 6% 0 4% 0;
@@ -177,6 +180,7 @@ header .banner {
   font-size: 2em;
   text-align: center;
   margin-bottom: 20px;
+  font-family: "Comfortaa", serif;
 }
 .skills .content .development-wrapper .skills-bar-container {
   position: relative;
@@ -193,11 +197,13 @@ header .banner {
 }
 .skills .content .development-wrapper .skills-bar-container li .progressbar-title h3 {
   display: inline-block;
+  font-family: "Comfortaa", serif;
 }
 .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent {
   position: absolute;
   right: 20px;
   font-size: 1.1em;
+  font-family: "Comfortaa", serif;
 }
 .skills .content .development-wrapper .skills-bar-container li .bar-container {
   background: #ececec;
@@ -227,6 +233,7 @@ header .banner {
   color: #3c3c3c;
   font-size: 2em;
   margin-bottom: 10px;
+  font-family: "Comfortaa", serif;
 }
 .skills .content .tools-knowledge-wrapper .tools-wrapper ul,
 .skills .content .tools-knowledge-wrapper .knowledge-wrapper ul {
@@ -239,6 +246,7 @@ header .banner {
   font-weight: bold;
   font-size: 1.1em;
   text-align: left;
+  font-family: "Comfortaa", serif;
 }
 .skills .content .tools-knowledge-wrapper .tools-wrapper ul li i,
 .skills .content .tools-knowledge-wrapper .knowledge-wrapper ul li i {
@@ -297,6 +305,7 @@ header .banner {
   padding-top: 14px;
   display: block;
   position: relative;
+  font-family: "Comfortaa", serif;
 }
 .card .stats {
   margin: 40px;
@@ -320,6 +329,7 @@ header .banner {
   display: block;
   font-size: .8em;
   font-weight: 100;
+  font-family: "Comfortaa", serif;
 }
 
 .card .star-candy {
@@ -334,6 +344,7 @@ header .banner {
   font-weight: 900;
   font-size: 1.2em;
   position: relative;
+  font-family: "Comfortaa", serif;
 }
 
 .grupo1, .grupo2 {
@@ -598,7 +609,9 @@ header .banner {
 
 /* contact page
 ==================================================*/
-
+.pink{
+  color: #d2079f;
+}
 .box-intro h5 {
     letter-spacing: 4px;
     text-transform: uppercase;
