@@ -759,24 +759,29 @@ footer {
         display: none;
     }
     .block {
-        width: 65%;
-        margin: 20px auto;
+      width: 65%;
+      margin: 20px auto;
     }
     .foto-avatar {
-        width: 64%;
+      width: 64%;
     }
     .foto-bage {
-        width: 30%;
+      width: 30%;
     }
     .hero .header h1 {
-        font-size: 2em;
+      font-size: 2em;
     }.hero .header h4 {
-        font-size: 0.8em;
+      font-size: 0.8em;
     }
     .works-caption{
       font-size: 1.5rem !important;
     }
-    
+    .works-caption{
+      border: 0;
+    }
+    #fh5co-testimonial .box-testimony blockquote {
+      padding: 30px 10px;
+    }
 }
 @media screen and (max-width: 491px) {
     header .banner-content h1 {
