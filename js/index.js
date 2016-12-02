@@ -12,6 +12,12 @@ $(function(){
     window.addEventListener('scroll', paralax);
   })();
 });
+
+/*###### NAV  ######*/
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
+
 /*###### SKILLS SECTION ######*/
 $( document ).ready(function() {
   var $developmentWrapper = $(".development-wrapper");

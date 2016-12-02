@@ -74,6 +74,7 @@ header .banner {
     position: relative;
     z-index: -10;
     background-position: 50%;
+    height: 100vh;
 }
 .banner-content {
     
@@ -740,6 +741,7 @@ footer {
   background: url(../images/2.jpg);
   background-size: cover;
   color: #fff;
+  padding: 9% 0;
   
 }
 .btn-default {
@@ -828,6 +830,13 @@ footer {
       width: 30px;
       height: 30px;
       margin-top: -10px;
+    }
+    .works-caption{
+      border: 0px !important;
+      font-size: 1em;
+    }
+    footer {
+    padding: 25% 0;
     }
 }
 @media screen and (max-width: 491px) {
