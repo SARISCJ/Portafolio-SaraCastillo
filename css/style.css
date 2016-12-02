@@ -10,11 +10,6 @@
     width: 10%;
     margin-top: 0.3%;
 }
-
-.navbar-default .navbar-nav>li>a{
-  color: white !important;
-}
-
 .navbar-default .navbar-nav > .active > a {
     background-color: #d2079f;
     color: white;
@@ -32,9 +27,29 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 0.7rem;
 }
-
 a{
   text-decoration: none !important ;
+}
+.white{
+  color: white !important;
+}
+.fs-5 {
+  font-size: 5em;
+}
+.fs-4{
+  font-size: 4em;
+}
+.fs-2 {
+  font-size: 2em;
+}
+.fs-10 {
+  font-size: 10px !important;
+}
+.fs-1medio {
+  font-size: 1.5rem !important;
+}
+.ff-confortaa {
+  font-family: "Comfortaa", serif;
 }
 /*global end*/
 
@@ -172,10 +187,8 @@ header .banner {
   background-color: black;
 }
 .skills .content .development-wrapper .development-title {
-  color: white;
   text-align: center;
-  margin-bottom: 20px;
-  
+  margin-bottom: 20px;  
 }
 .skills .content .development-wrapper .skills-bar-container {
   position: relative;
@@ -277,8 +290,6 @@ header .banner {
   position: relative;
 }
 .premios{
-  color: white !important;
-  font-family: 'Comfortaa', cursive;
   align-content: center;
   text-align: center;
   margin: 5% 0;
@@ -755,14 +766,14 @@ footer {
 }
 @media screen and (max-width: 767px) {
     header .banner-content h3 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
     header .social-list {
-        display: none;
+      display: none;
     }
     .logo {
-    width: 24%;
-    margin: 4.3% 40%;
+      width: 24%;
+      margin: 4.3% 40%;
     }
     .block {
       width: 65%;
@@ -780,8 +791,8 @@ footer {
       font-size: 16px;
     }
     .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-    padding-right: 20px;
+      background-color: white;
+      padding-right: 20px;
     }
     .navbar-toggle{
       margin-right: 40px;
@@ -799,7 +810,6 @@ footer {
     .hero .header h4 {
       font-size: 1.2em;
       margin: 0 auto; 
-      font-family: 'Comfortaa', cursive;
        -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-image: -webkit-radial-gradient(110% 50%, circle, #ff5858 0%,#d2079f 100%,#ff5858);
@@ -822,9 +832,9 @@ footer {
 }
 @media screen and (max-width: 491px) {
     header .banner-content h1 {
-        font-size: 2.5rem;
+      font-size: 2.5rem;
     }
     header .banner-content h3 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
 }
