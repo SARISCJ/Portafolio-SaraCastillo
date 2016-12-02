@@ -11,15 +11,15 @@
     margin-top: 0.3%;
 }
 .navbar-default .navbar-nav > .active > a {
-    background-color: #d2079f;
+    background-color: #d2079f !important;
     color: white;
 }
 .navbar-default .navbar-nav > li:hover> a, .navbar-default .navbar-nav > .active:hover > a {
-    background-color: #D5797A;
+    background-color: #D5797A !important;
     color: black;
 }
 .navbar-default .social-list > li:hover> a {
-    color: #ff5858;
+    color: #ff5858 !important;
     background: none;
 }
 h2 {
